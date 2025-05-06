@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Card Game Scorekeeper",
+    "slug": "card-game-scorekeeper",
+    "version": "1.0.2",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./assets/splash-icon-light.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon-light.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "$IOS_BUNDLE_IDENTIFIER",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDisplayName": "Card Game Scorekeeper"
+      },
+      "icon": {
+        "light": "./assets/Light.png",
+        "dark": "./assets/Dark.png",
+        "tinked": "./assets/Tinted.png"
+      }
+    },
+    "android": {
+      "package": "$ANDROID_PACKAGE_NAME",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#d34f39"
+      },
+      "permissions": [],
+      "config": {}
+    },
+    "web": {
+      "favicon": "./assets/Light.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/splash-icon-light.png",
+          "dark": {
+            "image": "./assets/splash-icon-dark.png",
+            "backgroundColor": "#000000"
+          },
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "$EAS_PROJECT_ID"
+      }
+    }
+  }
+}
